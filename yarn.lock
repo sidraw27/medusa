@@ -5040,6 +5040,65 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hibikiame/dashboard@workspace:packages/admin/dashboard":
+  version: 0.0.0-use.local
+  resolution: "@hibikiame/dashboard@workspace:packages/admin/dashboard"
+  dependencies:
+    "@ariakit/react": ^0.4.15
+    "@dnd-kit/core": ^6.1.0
+    "@dnd-kit/sortable": ^8.0.0
+    "@dnd-kit/utilities": ^3.2.2
+    "@hookform/error-message": ^2.0.1
+    "@hookform/resolvers": 3.4.2
+    "@medusajs/admin-shared": 2.8.8
+    "@medusajs/admin-vite-plugin": 2.8.8
+    "@medusajs/icons": 2.8.8
+    "@medusajs/js-sdk": 2.8.8
+    "@medusajs/types": 2.8.8
+    "@medusajs/ui": 4.0.18
+    "@medusajs/ui-preset": 2.8.8
+    "@tanstack/react-query": 5.64.2
+    "@tanstack/react-table": 8.20.5
+    "@tanstack/react-virtual": ^3.8.3
+    "@types/node": ^20.11.15
+    "@types/react": ^18.2.79
+    "@types/react-dom": ^18.2.25
+    "@uiw/react-json-view": ^2.0.0-alpha.17
+    "@vitejs/plugin-react": 4.2.1
+    ajv: ^8.17.1
+    autoprefixer: ^10.4.17
+    cmdk: ^0.2.0
+    copy-to-clipboard: ^3.3.3
+    date-fns: ^3.6.0
+    i18next: 23.7.11
+    i18next-browser-languagedetector: 7.2.0
+    i18next-http-backend: 2.4.2
+    lodash: ^4.17.21
+    match-sorter: ^6.3.4
+    motion: ^11.15.0
+    postcss: ^8.4.33
+    prettier: ^3.1.1
+    qs: ^6.12.0
+    radix-ui: 1.1.2
+    react: ^18.2.0
+    react-country-flag: ^3.1.0
+    react-currency-input-field: ^3.6.11
+    react-dom: ^18.2.0
+    react-helmet-async: ^2.0.5
+    react-hook-form: 7.49.1
+    react-i18next: 13.5.0
+    react-jwt: ^1.2.0
+    react-router-dom: 6.20.1
+    tailwindcss: ^3.4.1
+    tsup: ^8.0.2
+    typescript: 5.2.2
+    vite: ^5.4.14
+    vite-plugin-inspect: ^0.8.7
+    vitest: ^3.0.5
+    zod: 3.25.76
+  languageName: unknown
+  linkType: soft
+
 "@hookform/error-message@npm:^2.0.1":
   version: 2.0.1
   resolution: "@hookform/error-message@npm:2.0.1"
@@ -6149,9 +6208,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@medusajs/dashboard@2.8.8, @medusajs/dashboard@workspace:packages/admin/dashboard":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/dashboard@workspace:packages/admin/dashboard"
+"@medusajs/dashboard@npm:2.8.8":
+  version: 2.8.8
+  resolution: "@medusajs/dashboard@npm:2.8.8"
   dependencies:
     "@ariakit/react": ^0.4.15
     "@dnd-kit/core": ^6.1.0
@@ -6160,22 +6219,13 @@ __metadata:
     "@hookform/error-message": ^2.0.1
     "@hookform/resolvers": 3.4.2
     "@medusajs/admin-shared": 2.8.8
-    "@medusajs/admin-vite-plugin": 2.8.8
     "@medusajs/icons": 2.8.8
     "@medusajs/js-sdk": 2.8.8
-    "@medusajs/types": 2.8.8
     "@medusajs/ui": 4.0.18
-    "@medusajs/ui-preset": 2.8.8
     "@tanstack/react-query": 5.64.2
     "@tanstack/react-table": 8.20.5
     "@tanstack/react-virtual": ^3.8.3
-    "@types/node": ^20.11.15
-    "@types/react": ^18.2.79
-    "@types/react-dom": ^18.2.25
     "@uiw/react-json-view": ^2.0.0-alpha.17
-    "@vitejs/plugin-react": 4.2.1
-    ajv: ^8.17.1
-    autoprefixer: ^10.4.17
     cmdk: ^0.2.0
     copy-to-clipboard: ^3.3.3
     date-fns: ^3.6.0
@@ -6185,8 +6235,6 @@ __metadata:
     lodash: ^4.17.21
     match-sorter: ^6.3.4
     motion: ^11.15.0
-    postcss: ^8.4.33
-    prettier: ^3.1.1
     qs: ^6.12.0
     radix-ui: 1.1.2
     react: ^18.2.0
@@ -6198,15 +6246,10 @@ __metadata:
     react-i18next: 13.5.0
     react-jwt: ^1.2.0
     react-router-dom: 6.20.1
-    tailwindcss: ^3.4.1
-    tsup: ^8.0.2
-    typescript: 5.2.2
-    vite: ^5.4.14
-    vite-plugin-inspect: ^0.8.7
-    vitest: ^3.0.5
     zod: 3.25.76
-  languageName: unknown
-  linkType: soft
+  checksum: 30d601dcbe17495cb8c80c7031c3b9f555e58340e1806759f8fe8d8d30ce0f4b8980409e174b82293d0826d796e7b10a372fc9a0f3cbf5567fefbd7ecb7db746
+  languageName: node
+  linkType: hard
 
 "@medusajs/event-bus-local@2.8.8, @medusajs/event-bus-local@workspace:*, @medusajs/event-bus-local@workspace:packages/modules/event-bus-local":
   version: 0.0.0-use.local
